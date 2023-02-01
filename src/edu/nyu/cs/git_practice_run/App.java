@@ -38,9 +38,11 @@ public class App {
    * @throws Exception The main function always has to include this to handle crashing programs.
    */
   public static void main(String[] args) throws Exception {
-
-    // complete this function according to the instructions.
     
+    // complete this function according to the instructions.
+    System.out.println(foo("Hello", "world!") );
+    System.out.println(bar());
+    baz();
   }
 
 }
